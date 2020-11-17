@@ -1,0 +1,9 @@
+header {
+    height: 600px;
+    background-image: linear-gradient(to right, rgba(40, 28, 86, .6), rgba(68, 9, 162, .95)), url('../../assets/coding-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2rem;
+    color: #fff;
+}

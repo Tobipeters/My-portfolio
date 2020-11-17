@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+.navbar-toggler :focus,
+button:focus {
+    outline: none !important;
+}
+
+.logo {
+    font-family: 'Jockey One', sans-serif;
+    padding: .5rem 1rem .5rem .8rem;
+    clip-path: polygon(0 0, 88% 21%, 100% 100%, 0% 100%);
+    background-image: linear-gradient(to right, rgba(40, 28, 86, .6), rgba(68, 9, 162, .95));
+    color: #fff !important;
+}
+
+.logo span {
+    border-bottom: 2px solid #fff;
+}
+
+@media screen and (max-width:768px) {
+    .slide-menu {
+        transition: .4s ease-in-out;
+        position: absolute;
+        width: 100%;
+        right: -105%;
+        top: 56px;
+    }
+    .slide-in-out {
+        right: 0;
+        display: block;
+    }
+}
