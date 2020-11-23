@@ -1,16 +1,17 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import '../Navbar/navbar.style.css'
+import { AiOutlineMenu, AiOutlineClose, AiOutlineDownload } from 'react-icons/ai'
 
 const Nav = () => {
     const [slideNav, setslideNav] = useState("")
     const [isSlide, setisSlide] = useState(false);
 
-    const slideMenu = () =>{
+    const slideMenu = () => {
         if (isSlide) {
-         setslideNav("slide-in-out")
-         setisSlide(false)
+            setslideNav("slide-in-out")
+            setisSlide(false)
         }
-        else{
+        else {
             setslideNav("")
             setisSlide(true)
         }
@@ -21,11 +22,13 @@ const Nav = () => {
             <div className="container">
                 <a className="navbar-brand logo" href="#">
                     <span>
-                    Tobi.Peters
+                        Tobi.Peters
                     </span>
                 </a>
-                <button className="navbar-toggler pr-0 border-0" type="button" onClick={slideMenu}>
-                    <span className="navbar-toggler-icon"></span>
+                <button className="c pr-0 border-0 bg-transparent btn-mob" type="button" onClick={slideMenu}>
+                    {
+                        slideNav === "slide-in-out" ? <AiOutlineClose className="navbar-toggler-icon" /> : <AiOutlineMenu className="navbar-toggler-icon" />
+                    }
                 </button>
 
                 <div className={` slide-menu ${slideNav}`}>
@@ -40,7 +43,10 @@ const Nav = () => {
                             <a className="nav-link" href="#">Contact</a>
                         </li>
                         <li className="nav-item mx-auto px-lg-2">
-                            <button className="btn btn-primary">PDF CV</button>
+                            <button className="btn pink-bg border-0">
+                                <AiOutlineDownload className="mr-2" />
+                                PDF CV
+                                </button>
                         </li>
                     </ul>
                 </div>

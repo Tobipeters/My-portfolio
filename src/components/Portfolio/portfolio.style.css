@@ -1,0 +1,25 @@
+.porfolio-section {
+    clip-path: polygon(0 1%, 100% 0, 100% 95%, 0% 100%);
+}
+
+.about-row {
+    background: url('../../assets/sub-light-bg.png') no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.about-photo {
+    width: 400px;
+    height: 450px;
+}
+
+@media screen and (max-width: 768px) {
+    .about-row {
+        background-size: contain;
+        background-position: center;
+    }
+    .about-photo {
+        width: 300px;
+        height: 300px;
+    }
+}

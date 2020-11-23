@@ -4,6 +4,17 @@ button:focus {
     outline: none !important;
 }
 
+.navbar-toggler-icon {
+    background: none !important;
+    font-size: 1.2rem;
+    color: #777;
+    transition: .5s;
+}
+
+.navbar {
+    z-index: 1;
+}
+
 .logo {
     font-family: 'Jockey One', sans-serif;
     padding: .5rem 1rem .5rem .8rem;
@@ -16,7 +27,14 @@ button:focus {
     border-bottom: 2px solid #fff;
 }
 
-@media screen and (max-width:768px) {
+.btn-mob {
+    display: none;
+}
+
+@media screen and (max-width:991px) {
+    .btn-mob {
+        display: block;
+    }
     .slide-menu {
         transition: .4s ease-in-out;
         position: absolute;
@@ -25,7 +43,9 @@ button:focus {
         top: 56px;
     }
     .slide-in-out {
+        background: rgba(255, 255, 255, 0.95);
         right: 0;
         display: block;
+        padding: 3rem 0 40rem;
     }
 }

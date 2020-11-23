@@ -1,8 +1,9 @@
 import React from 'react';
 import Nav from './components/Navbar/index'
 import Header from './components/Header/index'
-import './App.css'
+import Portfolio from './components/Portfolio/index'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'
 
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
         <div className="app" >
             <Nav />
             <Header />
+            <Portfolio />
         </div>
     );
 }
