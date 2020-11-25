@@ -1,5 +1,29 @@
 .footer-section {
-    background-color: rgb(24, 24, 80);
-    clip-path: polygon(50% 0%, 100% 14%, 100% 100%, 0 100%, 0 14%);
+    background-color: rgb(19, 19, 75);
+    /* clip-path: polygon(50% 0%, 100% 14%, 100% 100%, 0 100%, 0 14%); */
     color: #fff;
+}
+
+.social-media .fb,
+.social-media .tw,
+.social-media .ln,
+.social-media .wh,
+.social-media .gh {
+    padding-right: 1.2rem;
+    font-size: 2rem;
+}
+
+.uprscoll {
+    z-index: 6;
+    position: absolute;
+    top: -5rem;
+    padding: .4rem 1rem .7rem;
+    background: #fff;
+    color: #DA1C5E;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
+.uprscoll:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175)!important;
 }

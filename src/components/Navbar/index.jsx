@@ -21,7 +21,7 @@ const Nav = () => {
         <nav className="navbar navbar-expand-lg navbar-light position-relative">
             <div className="container">
                 <a className="navbar-brand logo" href="#">
-                    <span>
+                    <span id="home">
                         Tobi.Peters
                     </span>
                 </a>
