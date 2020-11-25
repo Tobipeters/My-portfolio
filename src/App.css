@@ -10,3 +10,8 @@
 .purple-text {
     color: #4307A1;
 }
+
+.section-title {
+    border-left: 5px solid #DA1C5E;
+    padding-left: 1.2rem;
+}

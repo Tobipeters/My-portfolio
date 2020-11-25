@@ -3,6 +3,13 @@ import '../Portfolio/portfolio.style.css'
 import MyPhoto from '../../assets/Tst.jpg'
 import SkillPhoto from '../../assets/skill-image.jpg'
 import PortfolioCard from '../PortfolioCard/index'
+import LighthillProject from '../../assets/lighthill-project.PNG'
+import TempProject from '../../assets/Temp-App-project.PNG'
+import BMIProject from '../../assets/BMI-calculator-project.PNG'
+import ProjectoUIProject from '../../assets/projecto-UI-project.PNG'
+import TodoAppProject from '../../assets/Todo-App-project.PNG'
+import QuoteProject from '../../assets/Quote-generator-project.PNG'
+import ImageChangerProject from '../../assets/Image-changer-project.PNG'
 
 const Portfolio = () => {
     return (
@@ -17,7 +24,7 @@ const Portfolio = () => {
                         </div>
                         <div className="col-md-6 d-flex align-self-center order-md-1">
                             <div>
-                                <h3 className="mb-4 purple-text">About Me</h3>
+                                <h3 className="section-title mb-4 purple-text">About Me</h3>
                                 <p>
                                     Soluta quasi cum delectus eum facilis recusandae nesciunt molestias accusantium libero dolores repellat id in dolorem laborum ad modi qui at quas dolorum voluptatem voluptatum repudiandae.
                                 <br /> <br />
@@ -34,7 +41,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <h3 className="purple-text mb-4">My Skills</h3>
+                            <h3 className=" section-title purple-text mb-4">My Skills</h3>
                             <div className="row py-5">
                                 <div className="col-xl-3 col-lg-4 col-6">
                                     <div className="card-body top-border rounded shadow text-center font-weight-bold mb-4">
@@ -81,11 +88,30 @@ const Portfolio = () => {
                     </div>
                 </div>
             </section>
-            <section className="porfolio-section">
+            <section className="portfolio-section" id="portfolio">
                 <div className="container py-5">
-                    <div className="row py-5">
-                        <div className="col-xl-3 col-md-3">
-                           <PortfolioCard />
+                <h3 className="section-title text-white mt-5">My Works</h3>
+                    <div className="row mx-0 py-5">
+                        <div className="col-lg-4 col-md-6 p-0">
+                           <PortfolioCard title={"Quote Generator"} projectBg={QuoteProject} /> 
+                        </div>
+                        <div className="col-lg-4 col-md-6 p-0">
+                           <PortfolioCard title={"Temperature Converter App"} projectBg={TempProject} /> 
+                        </div>
+                        <div className="col-lg-4 col-md-6 p-0">
+                           <PortfolioCard title={"Todo APP"} projectBg={TodoAppProject} /> 
+                        </div>
+                        <div className="col-lg-4 col-md-6 p-0">
+                           <PortfolioCard title={"BMI Calvulator"} projectBg={BMIProject} /> 
+                        </div>
+                        <div className="col-lg-4 col-md-6 p-0">
+                           <PortfolioCard title={"Projecto UI design"} projectBg={ProjectoUIProject} /> 
+                        </div>
+                        <div className="col-lg-4 col-md-6 p-0">
+                           <PortfolioCard title={"Image Changer"} projectBg={ImageChangerProject} /> 
+                        </div>
+                        <div className="col-lg-4 col-md-6 p-0">
+                           <PortfolioCard title={"LightHill"} projectBg={LighthillProject} /> 
                         </div>
                     </div>
                 </div>

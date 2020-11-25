@@ -1,8 +1,15 @@
-.skill-section {
-    clip-path: polygon(0 1%, 100% 0, 100% 95%, 0% 100%);
+.skill-section {}
+
+.portfolio-section {
+    clip-path: polygon(0 3%, 100% 0%, 100% 100%, 0% 100%);
+    background-color: rgb(28, 28, 83);
 }
 
-.portfolio-section {}
+@media screen and (max-width:768px) {
+    .portfolio-section {
+        clip-path: polygon(0 2%, 100% 0%, 100% 100%, 0% 100%);
+    }
+}
 
 .about-row {
     background: url('../../assets/sub-light-bg.png') no-repeat;
