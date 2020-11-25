@@ -14,7 +14,7 @@
     height: 100%;
     position: relative;
     z-index: 5;
-    background: rgba(28, 28, 83, .3);
+    background-color: rgba(28, 28, 83, .3);
 }
 
 .view-project {
@@ -43,6 +43,7 @@
     border-radius: 50%;
     background: #DA1C5E;
     color: #fff;
-    transition: opacity .8s, visibility .8s;
+    transition: all 5s ease-in-out;
+    transform: scale(1.2);
     font-weight: 500;
 }

@@ -8,8 +8,12 @@ header {
     clip-path: polygon(0 1%, 100% 0, 100% 95%, 0% 100%);
 }
 
-.header-text h1 .hello {
+.header-text h2 {
     font-size: 3rem;
+}
+
+.header-text h4 {
+    font-size: 2.2rem;
 }
 
 .hello {
@@ -18,7 +22,8 @@ header {
     align-items: center;
     justify-content: start;
     z-index: 0;
-    font-size: 1.5rem;
+    font-size: 2.1rem;
+    font-weight: 500;
 }
 
 .hello::before {
@@ -46,4 +51,16 @@ header {
 .social-media .gh {
     padding-right: 1.2rem;
     font-size: 2.3rem;
+}
+
+@media screen and (max-width:768px) {
+    .hello {
+        font-size: 1.5rem;
+    }
+    .header-text h2 {
+        font-size: 2rem;
+    }
+    .header-text h4 {
+        font-size: 1.5rem;
+    }
 }

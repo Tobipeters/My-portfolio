@@ -18,7 +18,7 @@ const Header = () => {
                             <div className="mt-4 mb-3">
                                 <div className="mb-1">
                                     <FaEnvelope className="mr-3" />
-                                    <small>
+                                    <small className="font-weight-normal">
                                         <a className="text-white" href="emailto:oluwatobipeterschem@gmail.com" >
                                             oluwatobipeterschem@gmail.com
                                         </a>
@@ -26,7 +26,7 @@ const Header = () => {
                                 </div>
                                 <div className="mb-1">
                                     <FaPhoneAlt className="mr-3" />
-                                    <small>
+                                    <small className="font-weight-normal">
                                         <a className="text-white" href="tel:+2348167764664" >
                                             +234 816 776 4664
                                         </a>
@@ -34,7 +34,7 @@ const Header = () => {
                                 </div>
                                 <div className="mb-1">
                                     <FaMapMarkerAlt className="mr-3" />
-                                    <small>
+                                    <small className="font-weight-normal">
                                         Lagos, Nigeria
                                     </small>
                                 </div>

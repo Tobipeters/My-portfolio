@@ -33,6 +33,12 @@
     }
 }
 
+.fun-list .list-group-item {
+    border-width: 0 0 0 5px !important;
+    border-style: solid;
+    border-color: #DA1C5E;
+}
+
 .top-border {
     border-top: 6px solid #DA1C5E;
 }

@@ -26,9 +26,18 @@ const Portfolio = () => {
                             <div>
                                 <h3 className="section-title mb-4 purple-text">About Me</h3>
                                 <p>
-                                    Soluta quasi cum delectus eum facilis recusandae nesciunt molestias accusantium libero dolores repellat id in dolorem laborum ad modi qui at quas dolorum voluptatem voluptatum repudiandae.
-                                <br /> <br />
-                                    Soluta quasi cum delectus eum facilis recusandae nesciunt molestias accusantium libero dolores repellat id in dolorem laborum ad modi qui at quas dolorum voluptatem voluptatum repudiandae.
+                                    I'm a frontend developer with passion for solving problem and digitalizing abstract ideas to a structured and automated one. 
+                                    <br />I have worked with Tech Startups and currently working with one, but prefer <span className="font-weight-bold"> remote works</span>
+                                <br /> 
+                                    In my free time, you find me chatting and hanging out with friends
+                                    <br /><br />
+                                    <span className="font-weight-bold">Fun Facts:</span>
+                                    <ul className="list-group fun-list">
+                                        <li className="list-group-item py-1 mb-1 border-0 pl-0 bg-transparent">I play the drums</li>
+                                        <li className="list-group-item py-1 mb-1 border-0 pl-0 bg-transparent">I love to coo</li>
+                                        <li className="list-group-item py-1 mb-1 border-0 pl-0 bg-transparent">And of course, I love good looking PC, they motivate me to work </li>
+                                    </ul>
+                                    <br />
                     </p>
                             </div>
                         </div>
@@ -93,26 +102,44 @@ const Portfolio = () => {
                 <h3 className="section-title text-white mt-5">My Works</h3>
                     <div className="row mx-0 py-5">
                         <div className="col-lg-4 col-md-6 p-0">
-                           <PortfolioCard title={"Quote Generator"} projectBg={QuoteProject} /> 
+                           <PortfolioCard 
+                           title={"Quote Generator"} 
+                           projectBg={QuoteProject} 
+                           link={"https://tobipeters.github.io/30DaysOfCode_Day_4/"} /> 
                         </div>
                         <div className="col-lg-4 col-md-6 p-0">
-                           <PortfolioCard title={"Temperature Converter App"} projectBg={TempProject} /> 
+                           <PortfolioCard 
+                           title={"Temperature Converter App"} 
+                           projectBg={TempProject}
+                           link={"https://temperature-converter.tobipeters.vercel.app/"} /> 
                         </div>
                         <div className="col-lg-4 col-md-6 p-0">
-                           <PortfolioCard title={"Todo APP"} projectBg={TodoAppProject} /> 
+                           <PortfolioCard 
+                           title={"Todo APP"} 
+                           projectBg={TodoAppProject}
+                           link={"https://tobipeters.github.io/30DaysOfCode_Day_5/"} /> 
                         </div>
                         <div className="col-lg-4 col-md-6 p-0">
-                           <PortfolioCard title={"BMI Calvulator"} projectBg={BMIProject} /> 
+                           <PortfolioCard 
+                           title={"BMI Calvulator"} 
+                           projectBg={BMIProject}
+                           link={"https://tobipeters.github.io/30DaysOfCode_Day_3/"} /> 
                         </div>
                         <div className="col-lg-4 col-md-6 p-0">
-                           <PortfolioCard title={"Projecto UI design"} projectBg={ProjectoUIProject} /> 
+                           <PortfolioCard 
+                           title={"Projecto UI design"} 
+                           projectBg={ProjectoUIProject} 
+                           link={"https://projecto-sample-ui.vercel.app/"} /> 
                         </div>
                         <div className="col-lg-4 col-md-6 p-0">
-                           <PortfolioCard title={"Image Changer"} projectBg={ImageChangerProject} /> 
+                           <PortfolioCard 
+                           title={"Image Changer"} 
+                           projectBg={ImageChangerProject} 
+                           link={"https://tobipeters.github.io/30DaysOfCode_Day_7/"}/> 
                         </div>
-                        <div className="col-lg-4 col-md-6 p-0">
+                        {/* <div className="col-lg-4 col-md-6 p-0">
                            <PortfolioCard title={"LightHill"} projectBg={LighthillProject} /> 
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
