@@ -10,6 +10,7 @@ import ProjectoUIProject from '../../assets/projecto-UI-project.PNG'
 import TodoAppProject from '../../assets/Todo-App-project.PNG'
 import QuoteProject from '../../assets/Quote-generator-project.PNG'
 import ImageChangerProject from '../../assets/Image-changer-project.PNG'
+import { FaCheck } from 'react-icons/fa'
 
 const Portfolio = () => {
     return (
@@ -26,19 +27,30 @@ const Portfolio = () => {
                             <div>
                                 <h3 className="section-title mb-4 purple-text">About Me</h3>
                                 <p>
-                                    I'm a frontend developer with passion for solving problem and digitalizing abstract ideas to a structured and automated one. 
-                                    <br />I have worked with Tech Startups and currently working with one, but prefer <span className="font-weight-bold"> remote works</span>
-                                <br /> 
-                                    In my free time, you find me chatting and hanging out with friends
+                                    I am a frontend developer with passion for solving problems and digitalizing abstract ideas - giving them structure and making them automated
+                                    <br />I have worked and still works in a Tech startup. I prefer <span className="font-weight-bold"> remote jobs.</span>
+                                    <br />  <br />
+                                    In my spare time, I chat and I hangout with friends.
                                     <br /><br />
-                                    <span className="font-weight-bold">Fun Facts:</span>
+                                    <span className="font-weight-bold">What should you know about me?</span>
                                     <ul className="list-group fun-list">
-                                        <li className="list-group-item py-1 mb-1 border-0 pl-0 bg-transparent">I play the drums</li>
-                                        <li className="list-group-item py-1 mb-1 border-0 pl-0 bg-transparent">I love to coo</li>
-                                        <li className="list-group-item py-1 mb-1 border-0 pl-0 bg-transparent">And of course, I love good looking PC, they motivate me to work </li>
+                                        <li className="list-group-item py-1 border-0 pl-0 bg-transparent ">
+                                            {/* <FaCheck className="pink-text  mr-2 p-1" /> */}
+                                            I play the drums</li>
+                                        <li className="list-group-item py-1 border-0 pl-0 bg-transparent ">
+                                            {/* <FaCheck className="pink-text  mr-2 p-1" /> */}
+
+                                            I love to cook ( don't ask me to cook for you lol)
+                                        </li>
+                                        <li className="list-group-item py-1 border-0 pl-0 bg-transparent ">
+                                            {/* <FaCheck className="pink-text  mr-2 p-1" /> */}
+                                            <span>
+                                            I have such great eye for aesthetics especially as pertaining to PCs ( a sleek PC motivates me to work)
+                                            </span>
+                                            </li>
                                     </ul>
                                     <br />
-                    </p>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -99,43 +111,43 @@ const Portfolio = () => {
             </section>
             <section className="portfolio-section" id="portfolio">
                 <div className="container py-5">
-                <h3 className="section-title text-white mt-5">My Works</h3>
+                    <h3 className="section-title text-white mt-5">My Works</h3>
                     <div className="row mx-0 py-5">
                         <div className="col-lg-4 col-md-6 p-0">
-                           <PortfolioCard 
-                           title={"Quote Generator"} 
-                           projectBg={QuoteProject} 
-                           link={"https://tobipeters.github.io/30DaysOfCode_Day_4/"} /> 
+                            <PortfolioCard
+                                title={"Quote Generator"}
+                                projectBg={QuoteProject}
+                                link={"https://tobipeters.github.io/30DaysOfCode_Day_4/"} />
                         </div>
                         <div className="col-lg-4 col-md-6 p-0">
-                           <PortfolioCard 
-                           title={"Temperature Converter App"} 
-                           projectBg={TempProject}
-                           link={"https://temperature-converter.tobipeters.vercel.app/"} /> 
+                            <PortfolioCard
+                                title={"Temperature Converter App"}
+                                projectBg={TempProject}
+                                link={"https://temperature-converter.tobipeters.vercel.app/"} />
                         </div>
                         <div className="col-lg-4 col-md-6 p-0">
-                           <PortfolioCard 
-                           title={"Todo APP"} 
-                           projectBg={TodoAppProject}
-                           link={"https://tobipeters.github.io/30DaysOfCode_Day_5/"} /> 
+                            <PortfolioCard
+                                title={"Todo APP"}
+                                projectBg={TodoAppProject}
+                                link={"https://tobipeters.github.io/30DaysOfCode_Day_5/"} />
                         </div>
                         <div className="col-lg-4 col-md-6 p-0">
-                           <PortfolioCard 
-                           title={"BMI Calvulator"} 
-                           projectBg={BMIProject}
-                           link={"https://tobipeters.github.io/30DaysOfCode_Day_3/"} /> 
+                            <PortfolioCard
+                                title={"BMI Calvulator"}
+                                projectBg={BMIProject}
+                                link={"https://tobipeters.github.io/30DaysOfCode_Day_3/"} />
                         </div>
                         <div className="col-lg-4 col-md-6 p-0">
-                           <PortfolioCard 
-                           title={"Projecto UI design"} 
-                           projectBg={ProjectoUIProject} 
-                           link={"https://projecto-sample-ui.vercel.app/"} /> 
+                            <PortfolioCard
+                                title={"Projecto UI design"}
+                                projectBg={ProjectoUIProject}
+                                link={"https://projecto-sample-ui.vercel.app/"} />
                         </div>
                         <div className="col-lg-4 col-md-6 p-0">
-                           <PortfolioCard 
-                           title={"Image Changer"} 
-                           projectBg={ImageChangerProject} 
-                           link={"https://tobipeters.github.io/30DaysOfCode_Day_7/"}/> 
+                            <PortfolioCard
+                                title={"Image Changer"}
+                                projectBg={ImageChangerProject}
+                                link={"https://tobipeters.github.io/30DaysOfCode_Day_7/"} />
                         </div>
                         {/* <div className="col-lg-4 col-md-6 p-0">
                            <PortfolioCard title={"LightHill"} projectBg={LighthillProject} /> 

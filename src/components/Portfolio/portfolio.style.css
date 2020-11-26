@@ -5,14 +5,15 @@
     background-color: rgb(28, 28, 83);
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:991px) {
     .portfolio-section {
         clip-path: polygon(0 2%, 100% 0%, 100% 100%, 0% 100%);
     }
 }
 
 .about-row {
-    background: url('../../assets/sub-light-bg.png') no-repeat;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5)), url('../../assets/sub-light-bg.png');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
 }
@@ -22,14 +23,15 @@
     height: 450px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
     .about-row {
         background-size: contain;
         background-position: center;
     }
     .about-photo {
-        width: 300px;
-        height: 300px;
+        width: 350px;
+        height: 450px;
+        object-fit: cover;
     }
 }
 

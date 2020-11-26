@@ -5,6 +5,8 @@ import Portfolio from './components/Portfolio/index'
 import Footer from './components/Footer/index'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
+import { pdfjs } from 'react-pdf';
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
 const App = () => {
