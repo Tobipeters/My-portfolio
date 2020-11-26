@@ -13,14 +13,14 @@ const Header = () => {
                             <div className="hello">
                                 <span className="hello-text"> Hello</span>
                             </div>
-                            <h2>I'm Oluwatobi Peters</h2>
+                            <h2>I'm Oluwatobi Peter</h2>
                             <h4>A Frontend Developer</h4>
                             <div className="mt-4 mb-3">
                                 <div className="mb-1">
                                     <FaEnvelope className="mr-3" />
                                     <small className="font-weight-normal">
                                         <a className="text-white" href="emailto:oluwatobipeterschem@gmail.com" >
-                                            oluwatobipeterschem@gmail.com
+                                            Send an email
                                         </a>
                                     </small>
                                 </div>

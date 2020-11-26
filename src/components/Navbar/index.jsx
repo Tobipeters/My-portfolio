@@ -31,7 +31,7 @@ const Nav = () => {
             <div className="container">
                 <a className="navbar-brand logo" href="#">
                     <span id="home">
-                        Tobi.Peters
+                        Tobi.Peter
                     </span>
                 </a>
                 <button className="c pr-0 border-0 bg-transparent btn-mob" type="button" onClick={slideMenu}>

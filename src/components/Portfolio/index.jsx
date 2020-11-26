@@ -26,7 +26,7 @@ const Portfolio = () => {
                         <div className="col-md-6 d-flex align-self-center order-md-1">
                             <div>
                                 <h3 className="section-title mb-4 purple-text">About Me</h3>
-                                <p>
+                                <p className="text-break">
                                     I am a frontend developer with passion for solving problems and digitalizing abstract ideas - giving them structure and making them automated
                                     <br />I have worked and still works in a Tech startup. I prefer <span className="font-weight-bold"> remote jobs.</span>
                                     <br />  <br />
