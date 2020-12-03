@@ -19,7 +19,7 @@ const Nav = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light position-relative">
             <div className="container">
-                <a className="navbar-brand logo" href="#">
+                <a className="navbar-brand logo" href="#home">
                     <span id="home">
                         Tobi.Peter
                     </span>
