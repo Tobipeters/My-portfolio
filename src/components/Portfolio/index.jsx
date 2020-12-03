@@ -3,14 +3,14 @@ import '../Portfolio/portfolio.style.css'
 import MyPhoto from '../../assets/Tst.jpg'
 import SkillPhoto from '../../assets/skill-image.jpg'
 import PortfolioCard from '../PortfolioCard/index'
-import LighthillProject from '../../assets/lighthill-project.PNG'
+// import LighthillProject from '../../assets/lighthill-project.PNG'
 import TempProject from '../../assets/Temp-App-project.PNG'
 import BMIProject from '../../assets/BMI-calculator-project.PNG'
 import ProjectoUIProject from '../../assets/projecto-UI-project.PNG'
 import TodoAppProject from '../../assets/Todo-App-project.PNG'
 import QuoteProject from '../../assets/Quote-generator-project.PNG'
 import ImageChangerProject from '../../assets/Image-changer-project.PNG'
-import { FaCheck } from 'react-icons/fa'
+import { MdDone } from 'react-icons/md'
 
 const Portfolio = () => {
     return (
@@ -31,26 +31,23 @@ const Portfolio = () => {
                                     <br />I have worked and still works in a Tech startup. I prefer <span className="font-weight-bold"> remote jobs.</span>
                                     <br />  <br />
                                     In my spare time, I chat and I hangout with friends.
-                                    <br /><br />
-                                    <span className="font-weight-bold">What should you know about me?</span>
-                                    <ul className="list-group fun-list">
-                                        <li className="list-group-item py-1 border-0 pl-0 bg-transparent ">
-                                            {/* <FaCheck className="pink-text  mr-2 p-1" /> */}
-                                            I play the drums</li>
-                                        <li className="list-group-item py-1 border-0 pl-0 bg-transparent ">
-                                            {/* <FaCheck className="pink-text  mr-2 p-1" /> */}
-
-                                            I love to cook ( don't ask me to cook for you lol)
-                                        </li>
-                                        <li className="list-group-item py-1 border-0 pl-0 bg-transparent ">
-                                            {/* <FaCheck className="pink-text  mr-2 p-1" /> */}
-                                            <span>
-                                            I have such great eye for aesthetics especially as pertaining to PCs ( a sleek PC motivates me to work)
-                                            </span>
-                                            </li>
-                                    </ul>
                                     <br />
                                 </p>
+                                <span className="font-weight-bold">What should you know about me?</span>
+                                <ul className="list-group fun-list">
+                                    <li className="list-group-item py-1 border-0 pl-0 bg-transparent">
+                                        <MdDone className="pink-text mr-2" />
+                                        I play the drums
+                                    </li>
+                                    <li className="list-group-item py-1 border-0 pl-0 bg-transparent">
+                                        <MdDone className="pink-text mr-2" />
+                                        I love to cook ( don't ask me to cook for you lol)
+                                    </li>
+                                    <li className="list-group-item py-1 border-0 pl-0 bg-transparent">
+                                        <MdDone className="pink-text mr-2 mb-3" />
+                                        I have such great eye for aesthetics especially as pertaining to PCs ( a sleek PC motivates me to work)
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>

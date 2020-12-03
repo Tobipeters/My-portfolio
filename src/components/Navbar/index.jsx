@@ -1,16 +1,10 @@
 import React, { useState } from 'react';
 import '../Navbar/navbar.style.css'
 import { AiOutlineMenu, AiOutlineClose, AiOutlineDownload } from 'react-icons/ai'
-import { Document, Page } from 'react-pdf';
-import Resume from '../../assets/Oluwatobi_Resume.pdf'
 
 const Nav = () => {
     const [slideNav, setslideNav] = useState("")
     const [isSlide, setisSlide] = useState(false);
-    // PDF doc state
-    const [numPages, setNumPages] = useState(null);
-    const [pageNumber, setPageNumber] = useState(1);
-
     const slideMenu = () => {
         if (isSlide) {
             setslideNav("slide-in-out")
@@ -21,10 +15,6 @@ const Nav = () => {
             setisSlide(true)
         }
     }
-
-    function onDocumentLoadSuccess({ numPages }) {
-        setNumPages(numPages);
-      }
 
     return (
         <nav className="navbar navbar-expand-lg navbar-light position-relative">
