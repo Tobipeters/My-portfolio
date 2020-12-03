@@ -52,14 +52,10 @@ const Nav = () => {
                             <a className="nav-link" href="#">Contact</a>
                         </li>
                         <li className="nav-item mx-auto px-lg-2">
-                            <button className="btn pink-bg border-0">
+                            <a href="https://drive.google.com/file/d/1NZ62wwgP5esMmuWGgBBCjBLx7y2RtoM9/view?usp=sharing" target="_blank" className="btn pink-bg border-0">
                                 <AiOutlineDownload className="mr-2" />
                                 PDF CV
-                                </button>
-                            {/* <Document file="../../assets/Oluwatobi_Resume.pdf" onLoadSuccess={onDocumentLoadSuccess} >
-                                 <Page pageNumber={pageNumber} />
-                            </Document>
-                            <p>Page {pageNumber} of {numPages}</p> */}
+                                </a>
                         </li>
                     </ul>
                 </div>

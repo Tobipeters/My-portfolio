@@ -40,10 +40,10 @@ const Footer = () => {
                         </a>
                     </div>
                     <div className="col-md-4 col-6 order-2 d-flex justify-content-end ">
-                        <button className="btn pink-bg border-0">
+                        <a href="https://drive.google.com/file/d/1NZ62wwgP5esMmuWGgBBCjBLx7y2RtoM9/view?usp=sharing" target="_blank" className="btn pink-bg border-0">
                             <AiOutlineDownload className="mr-2" />
                             <small>  PDF CV </small>
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
