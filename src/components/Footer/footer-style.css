@@ -13,7 +13,7 @@
     font-size: 2.1rem !important;
 }
 
-.uprscoll {
+.upscroll {
     z-index: 6;
     position: absolute;
     top: -5rem;
@@ -24,6 +24,6 @@
     font-size: 1.5rem;
 }
 
-.uprscoll:hover {
+.upscroll:hover {
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175)!important;
 }

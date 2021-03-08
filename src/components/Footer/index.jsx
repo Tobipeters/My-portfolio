@@ -14,7 +14,7 @@ const Footer = () => {
     <footer className="footer-section">
       <div className="container pt-5 position-relative">
         <div className="d-flex justify-content-center pt-5 position-relative">
-          <a href="#home" className="uprscoll">
+          <a href="#home" className="upscroll">
             <FaChevronUp />
           </a>
         </div>
