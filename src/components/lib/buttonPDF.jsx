@@ -4,9 +4,9 @@ import { AiOutlineDownload } from "react-icons/ai";
 const ButtonPDF = () => {
   return (
     <a
-      href="https://drive.google.com/file/d/1aTGVkg_1lYVCFrQ8mhP54iAcZf-TiA5W/view?usp=sharing"
+      href="https://drive.google.com/file/d/1RPG2Vk14CslSW0K0XWCMgNg8TM3e-n46/view?usp=sharing"
       target="_blank"
-      className="btn pink-bg border-0"
+      className="btn pink-bg border-0 text-light"
     >
       <AiOutlineDownload className="mr-2" />
       PDF CV
