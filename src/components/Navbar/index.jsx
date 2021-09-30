@@ -60,25 +60,28 @@ const Nav = () => {
 
         <div className={` slide-menu ${slideNav}`}>
           <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li className="nav-item mx-auto active">
+            <li className="nav-item px-lg-3 mx-auto active">
               <a className="nav-link" href="#" onClick={slideMenu}>
                 Home <span className="sr-only">(current)</span>
               </a>
             </li>
-            <li className="nav-item mx-auto">
+            <li className="nav-item px-lg-3 mx-auto">
               <a className="nav-link" href="#portfolio" onClick={slideMenu}>
                 Portfolio
               </a>
             </li>
-            <li className="nav-item mx-auto">
+            <li className="nav-item px-lg-3 mx-auto">
               <a className="nav-link" href="#" onClick={slideMenu}>
                 Contact
               </a>
             </li>
-            <li className="nav-item mx-auto px-lg-2" onClick={slideMenu}>
+            <li
+              className="nav-item px-lg-3 mx-auto px-lg-2"
+              onClick={slideMenu}
+            >
               <ButtonPDF />
             </li>
-            <li className="nav-items ml-lg-3 my-auto">
+            <li className="nav-item px-lg-3s ml-lg-3 my-auto">
               <Toggle
                 className="dark-mode-toggle d-none d-lg-inline-block"
                 checked={isDark}
