@@ -6,7 +6,7 @@ import Toggle from "react-toggle";
 import "react-toggle/style.css";
 
 const Nav = () => {
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
   const [slideNav, setslideNav] = useState("");
   const [isSlide, setisSlide] = useState(false);
 
@@ -29,7 +29,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light  fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
       <div className="container">
         <a className="navbar-brand logo" href="#home">
           <span id="home">Tobi.Peter</span>
