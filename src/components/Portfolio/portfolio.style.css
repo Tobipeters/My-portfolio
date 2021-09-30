@@ -19,8 +19,8 @@
 }
 
 .about-photo {
-    width: 400px;
-    height: 450px;
+    width: 350px;
+    /* height: 450px; */
 }
 
 @media screen and (max-width: 991px) {
@@ -30,7 +30,7 @@
     }
     .about-photo {
         width: 350px;
-        height: 450px;
+        /* height: 450px; */
         object-fit: cover;
     }
 }

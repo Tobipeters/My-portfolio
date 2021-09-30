@@ -27,13 +27,22 @@ button:focus {
     border-bottom: 2px solid #fff;
 }
 
-.btn-mob {
-    display: none;
+.btn-mob,
+.mobile-icon {
+    display: none !important;
+}
+
+.react-toggle-track-check,
+.react-toggle-track-x {
+    top: 10px !important;
 }
 
 @media screen and (max-width:991px) {
     .btn-mob {
-        display: block;
+        display: block !important;
+    }
+    .mobile-icon {
+        display: flex !important;
     }
     .slide-menu {
         transition: .4s ease-in-out;
@@ -47,5 +56,6 @@ button:focus {
         right: 0;
         display: block;
         padding: 3rem 0 40rem;
+        height: 100vh;
     }
 }

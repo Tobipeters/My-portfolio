@@ -17,6 +17,7 @@
     "react-pdf": "^5.0.0",
     "react-reveal": "^1.2.2",
     "react-scripts": "4.0.0",
+    "react-toggle": "^4.1.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

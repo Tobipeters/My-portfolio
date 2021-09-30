@@ -20,6 +20,7 @@ const Portfolio = () => {
               <div>
                 <Rotate top right>
                   <img
+                    alt="my_photo"
                     src={MyPhoto}
                     className="about-photo shadow-lg rounded mb-5 mb-md-0"
                   />
@@ -65,14 +66,16 @@ const Portfolio = () => {
 
           <div className="row py-5">
             <div className="col-md-6 d-flex align-self-center">
-              <div>
-                <Rotate top left>
+              <Rotate top left>
+                <div className="position-relative">
+                  <div className="skill-photo_overlay"></div>
                   <img
+                    alt="skill_photo"
                     src={SkillPhoto}
                     className="skill-photo rounded mb-5 mb-md-0"
                   />
-                </Rotate>
-              </div>
+                </div>
+              </Rotate>
             </div>
             <div className="col-md-6">
               <h3 className=" section-title purple-text mb-4">My Skills</h3>

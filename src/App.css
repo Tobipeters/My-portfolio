@@ -19,3 +19,67 @@
     border-left: 5px solid #DA1C5E;
     padding-left: 1.2rem;
 }
+
+.skill-photo_overlay {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    background: rgba(225, 225, 225, .1);
+}
+
+
+/* dark mode style */
+
+.dark_mode {
+    color: #fff !important;
+}
+
+.dark_mode,
+.dark_mode .navbar {
+    background: #2c2f35 !important;
+}
+
+.dark_mode .slide-in-out {
+    background: rgba(44, 47, 53, .97);
+}
+
+.dark_mode .navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, .9);
+}
+
+.dark_mode .about-row {
+    background-image: linear-gradient(to right, #0d1117de, #0d1117de), url('./assets/sub-light-bg.png');
+}
+
+@media screen and (max-width: 768px) {
+    .dark_mode .about-row {
+        background: #2c2f35 !important;
+    }
+}
+
+.dark_mode header {
+    background-image: linear-gradient(to right, rgb(20 15 41 / 90%), rgb(22 2 53)), url('./assets/coding-bg.jpg');
+}
+
+.dark_mode .logo {
+    background-image: linear-gradient(to right, rgba(20, 15, 41, .65), rgba(22, 2, 53, .9))
+}
+
+.dark_mode .portfolio-section {
+    background-color: rgb(19, 19, 51);
+}
+
+.dark_mode .skill-photo_overlay {
+    background: rgba(44, 47, 53, .75);
+}
+
+.dark_mode .upscroll {
+    background-color: #343942;
+}
+
+.dark_mode .footer-section {
+    background-color: rgb(5, 5, 35);
+}
