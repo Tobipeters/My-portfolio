@@ -16,6 +16,10 @@ button:focus {
     background: #fff;
 }
 
+.nav-link {
+    font-weight: 500;
+}
+
 .logo {
     font-family: 'Jockey One', sans-serif;
     padding: .5rem 1rem .5rem .8rem;
